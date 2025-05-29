@@ -1,1 +1,19 @@
-# Login-and-dashboard
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+       <form action="dashboard.html" method="get">
+      <input type="text" placeholder="Username / Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
+
