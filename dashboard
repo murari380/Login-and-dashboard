@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="./dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="dashboard-container">
+    <h2>Add Users</h2>
+    <div class="form-section">
+      <input type="text" placeholder="Username" class= "input-box" />
+      <input type="email" placeholder="Email" class= "input-box" />
+      <input type="password" placeholder="Password " class="input-box"/>
+      <div class="upload-photo">
+        <label for="upload"><i class="fa-solid fa-image"></i> Upload Photo</label>
+        <input type="file" id="upload" />
+      </div>
+      <button class="add-btn">Add</button>
+    </div>
+
+    <div class="user-list">
+      <h3>List of Users</h3>
+      
+      <div class="user-row">
+        <div class="user-info">
+          <div>1. <strong>Murari</strong></div>
+          <div>  murari@gmail.com  </div> 
+          <div>   xxxxxx</div>
+
+          </div>
+        <div class="user-actions">
+          <button class="btn profile"><i class="fa-solid fa-user"></i></button>
+
+          <button class="btn edit"><i class="fa-solid fa-pen-to-square"></i></button>
+          <button class="btn delete"><i class="fa-solid fa-trash"></i></button>
+        </div>
+      </div>
+
+      <div class="user-row">
+        <div class="user-info"> 
+          <div>2. <strong>Pauani</strong></div>
+          <div>  pauani@gmail.com  </div> 
+          <div>   xxxxxx</div>
+          
+        </div>
+        <div class="user-actions">
+          <button class="btn profile"><i class="fa-solid fa-user"></i></button>
+          <button class="btn edit"><i class="fa-solid fa-pen-to-square"></i></button>
+          <button class="btn delete"><i class="fa-solid fa-trash"></i></button>
+        </div>
+      </div>
+
+      <div class="user-row">
+        <div class="user-info">
+           <div>3. <strong>Shyam</strong></div>
+          <div>  shyam@gmail.com  </div> 
+          <div>   xxxxxx</div></div>
+        <div class="user-actions">
+          <button class="btn profile"><i class="fa-solid fa-user"></i></button>
+          <button class="btn edit"><i class="fa-solid fa-pen-to-square"></i></button>
+          <button class="btn delete"><i class="fa-solid fa-trash"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
